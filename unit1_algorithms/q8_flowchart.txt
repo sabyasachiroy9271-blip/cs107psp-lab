@@ -1,0 +1,15 @@
+BEGIN
+    READ A, B, C
+    IF A > B THEN
+        IF A > C THEN
+            DISPLAY A "is the largest"
+        ELSE
+            DISPLAY C "is the largest"
+        ENDIF
+    ELSE
+        IF B > C THEN
+            DISPLAY B "is the largest"
+        ELSE
+            DISPLAY C "is the largest"
+        ENDIF
+    ENDIF

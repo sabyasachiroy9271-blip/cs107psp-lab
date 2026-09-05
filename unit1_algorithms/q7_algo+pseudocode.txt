@@ -1,0 +1,18 @@
+step-wise algorithm:
+
+1.Start the process
+2. enter the value of radius
+3.define the value of pi as 3.14159
+4.take the value of radius (r) from the user
+5.make sure the value of r is greater than 0 (r>0)
+6.calculate the area by using A = pi r^2
+7.Display the computed values of a and r (a=area, r=radius)
+8.stop the process.
+
+pseudo-code:
+BEGIN
+    READ radius
+    COMPUTE area = 3.14159 * radius * radius
+    COMPUTE circumference = 2 * 3.14159 * radius
+    DISPLAY area, circumference
+END
